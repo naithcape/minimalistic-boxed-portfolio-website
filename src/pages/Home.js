@@ -13,14 +13,14 @@ const Home = () =>  {
     const colorValue = bodyComputedStyle.getPropertyValue('--color').trim();
     const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    setDarkMode(colorValue === '#FFF' ? false : prefersDarkMode);
+    setDarkMode(colorValue === '#EEEEEE' ? false : prefersDarkMode);
   }, []);
 
   useEffect(() => {
     if (darkMode === null) return;
-    document.documentElement.style.setProperty('--color', darkMode ? '#1a1a1a' : '#FFF');
-    document.documentElement.style.setProperty('--button-color', darkMode ? '#FFF' : '#1a1a1a');
-    document.documentElement.style.setProperty('--text-color', darkMode ? '#FFF' : '#3e4554');
+    document.documentElement.style.setProperty('--color', darkMode ? '#1a1a1a' : '#EEEEEE');
+    document.documentElement.style.setProperty('--button-color', darkMode ? '#EEEEEE' : '#1a1a1a');
+    document.documentElement.style.setProperty('--text-color', darkMode ? '#EEEEEE' : '#3e4554');
   }, [darkMode]);
 
   return (
