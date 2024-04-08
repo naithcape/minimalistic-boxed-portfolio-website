@@ -25,9 +25,9 @@ const Home = () =>  {
 
   return (
     <div className="flex items-center justify-center min-h-[90vh] my-[5vh] mx-7 text-[color:var(--text-color)]">
-      <div className="w-full min-h-[90vh] gap-5 max-w-3xl border-[1px] border-dashed border-[color:var(--text-color)] py-[5rem] px-14 flex flex-col justify-between">
+      <div className="w-full min-h-[90vh] gap-5 max-w-3xl sm:border-[1px] sm:border-dashed sm:border-[color:var(--text-color)] py-[2rem] sm:py-[5rem] px-5 sm:px-14 flex flex-col justify-between">
         <div className="font-[500]">
-          <h1 className="text-6xl sm:text-7xl font-bold">デファクト</h1>
+          <h1 className="text-[12vw] sm:text-7xl font-bold">デファクト</h1>
           <p className="mt-6 opacity-70">Nenad Petrović • @defakuto</p>
           <p className="mt-6">this is my website</p>
           <p className="mt-4">embrace adrenaline, music, and every moment. 
@@ -42,7 +42,7 @@ const Home = () =>  {
             <button className="bg-[color:var(--button-color)] text-[color:var(--color)] rounded-md px-3 py-1 font-medium" onClick={toggleDarkMode}>{darkMode ? "light" : "dark"}</button>
           </div>
         </div>
-        <div className="flex gap-3">
+        <div className="flex gap-3 flex-wrap">
           <a href="https://www.instagram.com/defakuto">@instagram</a>
           <a href="https://www.youtube.com/@defakuto">@youtube</a>
           <a href="https://www.tiktok.com/@defakuto">@tiktok</a>
