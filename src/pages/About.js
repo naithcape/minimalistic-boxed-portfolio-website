@@ -26,7 +26,7 @@ const About = () => {
             I believe in the power of connection, in sharing knowledge and experiences with others, and in lifting each other up as we navigate the twists and turns of life's journey.
             <br />
             <br />
-            Boundless adventures call out to me, and I eagerly leap into the thrilling unknown.<br /> Let the journey begin</p>
+            Boundless adventures call out to me, and I eagerly leap into the thrilling unknown.<br /> Let the journey begin.</p>
         </div>
         <div className="flex gap-3">
             <Link to="/"><button className="bg-[#54a1ff] rounded-md px-3 py-1 text-white font-medium">{'<'}</button></Link>
