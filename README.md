@@ -1,6 +1,6 @@
 # Welcome to My Personal Portfolio Website
 
-![Portfolio Website](https://defakuto.net/)
+![Portfolio Website](https://imgur.com/FMlbaZ1.png)
 
 Welcome to my personal portfolio website! This project was built using React, harnessing the power of Create React App for rapid development and seamless user experience. Below, you'll find useful information on how to get started, run tests, build for production, and more.
 
