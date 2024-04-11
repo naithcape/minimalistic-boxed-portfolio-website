@@ -4,7 +4,7 @@ Absolutely, adding a license is crucial for clarifying how others can use your c
 
 # Welcome to My Personal Portfolio Website
 
-![Portfolio Website](link-to-your-portfolio-website-screenshot)
+![Portfolio Website](https://defakuto.net/)
 
 Welcome to my personal portfolio website! This project was built using React, harnessing the power of Create React App for rapid development and seamless user experience. Below, you'll find useful information on how to get started, run tests, build for production, and more.
 
