@@ -1,7 +1,3 @@
-Absolutely, adding a license is crucial for clarifying how others can use your code. Here's the revised README with the BSD 2-Clause "Simplified" License included:
-
----
-
 # Welcome to My Personal Portfolio Website
 
 ![Portfolio Website](https://defakuto.net/)
@@ -53,7 +49,3 @@ This project is licensed under the BSD 2-Clause "Simplified" License - see the [
 Feel free to customize and tweak this portfolio to fit your needs! Don't hesitate to reach out if you have any questions or suggestions.
 
 Happy coding!
-
----
-
-Make sure to create a `LICENSE` file in your project directory containing the text of the BSD 2-Clause "Simplified" License or provide a link to it.
