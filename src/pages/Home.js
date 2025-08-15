@@ -28,7 +28,7 @@ const Home = () =>  {
       <div className="w-full min-h-[90vh] gap-5 max-w-3xl sm:border-[1px] sm:border-dashed sm:border-[color:var(--text-color)] py-[2rem] sm:py-[5rem] px-5 sm:px-14 flex flex-col justify-between">
         <div className="font-[500]">
           <h1 className="text-[12vw] sm:text-7xl font-bold">デファクト</h1>
-          <p className="mt-6 opacity-70">Nenad Petrović • @defakuto</p>
+          <p className="mt-6 opacity-70">Name Lastname • @username</p>
           <p className="mt-6">this is my website</p>
           <p className="mt-4">embrace adrenaline, music, and every moment. 
   Live each day like it's your last drive. 
@@ -38,15 +38,15 @@ const Home = () =>  {
           <div className="flex flex-col gap-1 mt-4 items-start">
             <Link to="/about"><button className="bg-[#54a1ff] rounded-md px-3 py-1 text-white font-medium">About me</button></Link>
             <Link to="/projects"><button className="bg-[#54a1ff] rounded-md px-3 py-1 text-white font-medium">Projects</button></Link>
-            <a href="mailto:defakutonaith@gmail.com"><button className="bg-[#54a1ff] rounded-md px-3 py-1 text-white font-medium">Contact me</button></a>
+            <a href="mailto:email@gmail.com"><button className="bg-[#54a1ff] rounded-md px-3 py-1 text-white font-medium">Contact me</button></a>
             <button className="bg-[color:var(--button-color)] text-[color:var(--color)] rounded-md px-3 py-1 font-medium" onClick={toggleDarkMode}>{darkMode ? "light" : "dark"}</button>
           </div>
         </div>
         <div className="flex gap-3 flex-wrap">
-          <a href="https://www.instagram.com/defakuto">@instagram</a>
-          <a href="https://www.youtube.com/@defakuto">@youtube</a>
-          <a href="https://www.tiktok.com/@defakuto">@tiktok</a>
-          <a href="https://github.com/defakuto">@github</a>
+          <a href="https://www.instagram.com">@instagram</a>
+          <a href="https://www.youtube.com/">@youtube</a>
+          <a href="https://www.tiktok.com/">@tiktok</a>
+          <a href="https://github.com">@github</a>
         </div>
       </div>
     </div>
